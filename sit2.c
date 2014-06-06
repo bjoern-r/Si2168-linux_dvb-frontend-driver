@@ -29,7 +29,7 @@
 #include "sit2_priv.h"
 #include "sit2.h"
 
-int sit2_debug = 1;
+int sit2_debug = 0;
 module_param(sit2_debug, int, 0644);
 MODULE_PARM_DESC(sit2_debug, "Activates frontend debugging (default:0)");
 #define dprintk(args...) \
